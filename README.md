@@ -92,10 +92,6 @@ real-time-gcp-pipeline/
 ├── docs/
 │   └── architecture.md     # Detailed system design
 │
-├── images/                 # Screenshots and diagrams
-│   ├── architecture.png
-│   ├── bigquery_schema.png
-│   └── function_logs.png
 │
 └── README.md              # This file
 ```
@@ -127,8 +123,6 @@ bq mk --table \
   real-time-pipeline-467013:iot_data.sensor_readings \
   temperature:FLOAT,humidity:FLOAT,timestamp:TIMESTAMP
 ```
-
-> 📸 **Screenshot Location**: BigQuery console showing created dataset and table schema
 
 ---
 
@@ -191,8 +185,6 @@ gcloud functions deploy process-pubsub \
   --trigger-topic=agent-requests
 ```
 
-> 📸 **Screenshot Location**: Cloud Functions console showing successful deployment
-
 ---
 
 ### 4️⃣ **Testing & Validation**
@@ -216,8 +208,6 @@ gcloud functions logs read process-pubsub \
   --limit=10
 ```
 
-> 📸 **Screenshot Location**: Terminal showing published messages and function execution logs
-
 ---
 
 ## 📊 Results & Monitoring
@@ -238,7 +228,7 @@ gcloud functions logs read process-pubsub \
 }
 ```
 
-> 📸 **Screenshot Location**: BigQuery console showing processed data and query results
+> <img width="1366" height="768" alt="Screenshot 2025-07-25 182950" src="https://github.com/user-attachments/assets/153cfafb-5c7a-4695-aee8-761f12ffbd76" />
 
 ---
 
@@ -285,21 +275,5 @@ gcloud functions logs read process-pubsub \
 
 ---
 
-## 📞 Contact & Links
-
-**Project Repository**: [GitHub - Real-Time GCP Pipeline](https://github.com/yourusername/realtime-gcp-pipeline)
-
-**Professional Links**:
-- **LinkedIn**: [Eman Čičkučić](https://linkedin.com/in/yourprofile)
-- **Email**: cickusiceman@gmail.com
-- **Portfolio**: [Your Portfolio Website]
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
 
 *Built with ❤️ using Google Cloud Platform's Free Tier*
