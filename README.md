@@ -9,7 +9,8 @@
 ## 📸 Demo Preview
 
 > 📷 **Screenshots will be added here:**
-> - BigQuery table with processed sensor data
+> <img width="1366" height="686" alt="image" src="https://github.com/user-attachments/assets/2ef92ee1-7ba8-46fb-81bd-18e17040cb3b" />
+
 > - Cloud Functions execution logs
 > - Pub/Sub message flow monitoring
 
