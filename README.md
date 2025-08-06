@@ -89,9 +89,6 @@ real-time-gcp-pipeline/
 ├── deployment/
 │   └── deploy.sh           # Automated deployment script
 │
-├── docs/
-│   └── architecture.md     # Detailed system design
-│
 │
 └── README.md              # This file
 ```
